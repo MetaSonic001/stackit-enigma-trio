@@ -8,7 +8,7 @@ const path = require('path');
 
 // Configuration
 const SUPABASE_URL = 'https://xyuqpskapfenamafimxz.supabase.co';
-const SUPABASE_SERVICE_KEY = 'YOUR_SERVICE_ROLE_KEY_HERE'; // Replace with your service role key
+const SUPABASE_SERVICE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh5dXFwc2thcGZlbmFtYWZpbXh6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MjMxMzMyNSwiZXhwIjoyMDY3ODg5MzI1fQ.gYsy2tZi9Zfq3wpQ6rZ6XQ2-4RoJUgbQz7o_Iron9OYE'; // Replace with your service role key
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
 
